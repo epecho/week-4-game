@@ -1,0 +1,67 @@
+body {
+    background-image: url("../img/wood_1_@2X.png");
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.titleBox h1 {
+    font-size: 50px;
+}
+
+#instructionBox {
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.ranNumBox {
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+#parentRanWlBox {
+    margin: 50px 0 0 50px;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#parentScore {
+    font-size: 4em;
+    margin: 50px 0 50px 0;
+}
+
+.b1 {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+}
+
+.b2 {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+}
+
+.b3 {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+}
+
+.b4 {
+    opacity: 0.5;
+    transition: opacity .25s ease-in-out;
+}
+
+.b1:hover {
+    opacity: 1;
+}
+
+.b2:hover {
+    opacity: 1;
+}
+
+.b3:hover {
+    opacity: 1;
+}
+
+.b4:hover {
+    opacity: 1;
+}

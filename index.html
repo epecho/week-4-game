@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Crystal Collector</title>
+
+    <!-- reset -->
+    <!--    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">-->
+
+    <!-- bootstrap Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Google Fonts:  -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!-- game script -->
+    <script type="text/javascript" src="assets/js/game.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="parentTitleBox" class="row">
+            <div class="col-md-12">
+                <div class="titleBox">
+                    <h1>Crystal Collectors!</h1></div>
+            </div>
+        </div>
+
+        <div id="instructionBox">
+            <p>Click on the crystals below &amp; try to match
+                <br> the number but, be careful not to go over.</p>
+        </div>
+
+        <div id="parentRanWlBox">
+            <div class="winLoseBox row">
+                <span class="col-md-4">
+                    <span class="win">Wins:<br><div class="winNum">0</div></span>
+                </span>
+
+                <span class="col-md-4"> 
+                    <div class="ranNumBox">
+                    
+                    </div>
+                </span>
+
+                <span class="col-md-4">
+                    <span class="loss">Loses:<br><div class="lossNum">0</div></span>
+                </span>
+            </div>
+        </div>
+        <!-- END parentRanWlBox -->
+
+        <div id="parentScore">
+            <div class="score">
+                <span>Your total score is: </span>
+            </div>
+
+            <div class="scoreDisplay">
+                <p class="scoreDisplayChild"></p>
+            </div>
+        </div>
+        <!-- END parentScore -->
+
+        <div id="parentGameButtons">
+
+            <div class="row">
+
+                <div class="col-md-3">
+                    <div type="button" class="box b1 crystal1" id="crystal1" value='1'>
+                        <img src="assets/img/crystal_assets_1.png" width="292.5">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div type="button" class="box b2 crystal2" value='2'>
+                        <img src="assets/img/crystal_assets_2.png" width="292.5">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div type="button" class="box b3 crystal3" value='3'>
+                        <img src="assets/img/crystal_assets_3.png" width="292.5">
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div type="button" class="box b4 crystal4" value='4'>
+                        <img src="assets/img/crystal_assets_4.png" width="292.5">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- END parentGameButtons -->
+
+    </div>
+    <!-- END container -->
+
+</body>
+
+</html>
