@@ -19,7 +19,7 @@ $(document).ready(function () {
         "use strict";
         // reset
         console.log("reset");
-        var randNum = Math.floor(Math.random() * (120 - 19) + 19);
+        randNum = Math.floor(Math.random() * (120 - 19) + 19);
         console.log("randomNumber = " + randNum);
         crys1;
         crys2;
@@ -31,7 +31,7 @@ $(document).ready(function () {
         //HTML
         $(".ranNumBox").html(randNum);
         $(".scoreDisplayChild").html(finalScore);
-        start();
+        //start();
     }
 
     function start() {
@@ -85,14 +85,14 @@ $(document).ready(function () {
                 alert("win");
                 win++;
                 $(".winNum").html(win);
-                $(".scoreDisplayChild").html(0);
+                //$(".scoreDisplayChild").html(0);
                 reset();
 
             } else if (finalScore > randNum) {
                 alert("loser");
                 loss++;
                 $(".lossNum").html(loss);
-                $(".scoreDisplayChild").html(0);
+                //$(".scoreDisplayChild").html(0);
                 reset();
             }
         });
